@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://mdbootstrap.com/previews/docs/latest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://mdbootstrap.com/previews/docs/latest/css/mdb.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <section class="form-dark">
+            <form action="" method="post">
+                <div class="card card-image" style="background-image: url('https://www.kabytes.com/wp-content/uploads/2012/09/text.jpg'); width: 28rem;">
+                    <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+                        <div class="text-center">
+                            <h3 class="white-text mb-5 mt-4 font-weight-bold"><strong>SUBIR</strong> <a class="green-text font-weight-bold"><strong>
+                                        DOCUMENTO</strong></a></h3>
+                        </div>
+                        <div class="md-form">
+                            <input type="text" id="nombre" class="form-control white-text">
+                            <label for="nombre">Nombre del documento</label>
+                        </div>
+                        <select class="mdb-select md-form font-white">
+                            <option value="" disabled selected>Tipo</option>
+                            <option value="">Tesis</option>
+                            <option value="">Proyecto Integrador</option>
+                        </select>
+                        <select class="mdb-select md-form font-white">
+                            <option value="" disabled selected>Ciclos</option>
+                            <option value="">Primer</option>
+                            <option value="">Segundo</option>
+                            <option value="">Tercer</option>
+                            <option value="">Cuarto</option>
+                            <option value="">Quinto</option>
+                            <option value="">Sexto</option>
+                        </select>
+                        <select class="mdb-select md-form font-white">
+                            <option value="" disabled selected>Carrera</option>
+                            <option value="">C1</option>
+                            <option value="">C2</option>
+                            <option value="">C3</option>
+                            <option value="">C4</option>
+                            <option value="">C5</option>
+                        </select>
+                        <div class="upload_icon">
+                            <div class="file-field big text-center">
+                                <a class="btn-floating btn-lg amber darken-2 mt-0 float-left text-center">
+                                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                    <input type="file" multiple>
+                                </a>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" id="upload_archivo" hidden type="text" placeholder="Upload one or more files">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex align-items-center mb-4">
+                            <div class="text-center mb-3 col-md-12">
+                                <button type="submit" class="btn btn-outline-info btn-block btn-rounded z-depth-1">Guardar
+                                    <i class="fa fa-cloud-upload"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <script src="https://mdbootstrap.com/previews/docs/latest/js/jquery-3.3.1.min.js"></script>
+    <script src="https://mdbootstrap.com/previews/docs/latest/js/popper.min.js"></script>
+    <script src="https://mdbootstrap.com/previews/docs/latest/js/bootstrap.min.js"></script>
+    <script src="https://mdbootstrap.com/previews/docs/latest/js/mdb.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.mdb-select').materialSelect();
+        });
+    </script>
+</body>
+
+</html>
